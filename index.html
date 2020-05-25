@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="js/jquery.cookie.js"></script>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <form class="sity">
+                
+                <div class="form-group row">
+                  <label for="inputSity" class="col-4 col-form-label">Ваш город?</label>
+                  <div class="col-3">
+                    <input type="text" class="form-control" id="inputSity" placeholder="Введите город">
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary" id="setCookies">Submit</button>
+                </div>
+              </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  не звонить мне;
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2">
+                  я прочитал и согласен с правилами пользования сервисом;
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                <label class="form-check-label" for="defaultCheck2">
+                  я не выбираю эту галочку;
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                <label class="form-check-label" for="defaultCheck2">
+                  я подтверждаю, что свобода в интернете — это возможность выбирать галочки;
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                <label class="form-check-label" for="defaultCheck2">
+                  мне больше 12 лет;
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                <label class="form-check-label" for="defaultCheck2">
+                  это задание выполнено правильно;
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary" id="setcheck">Submit</button>
+        </div>
+    </div>
+    
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
